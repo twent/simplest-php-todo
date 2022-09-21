@@ -1,5 +1,7 @@
 # Simple PHP Todo App (procedural style)
 
+![image](https://user-images.githubusercontent.com/7511983/191567752-84c637d7-1d6c-4d2e-b9b7-d99e1c1c1572.png)
+
 ## How to start app:
 1. Create sqlite.db file in `src/config/db`
 2. Run `migrations.sql` for created DB.
