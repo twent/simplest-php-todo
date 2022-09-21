@@ -1,0 +1,5 @@
+CREATE TABLE `todos` (
+    `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+    `completed` BOOLEAN DEFAULT FALSE,
+    `title` VARCHAR(255)
+);
