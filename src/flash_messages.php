@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // Session array key for flash messages
 const FLASH = 'FLASH_MESSAGES';
 
@@ -84,7 +86,7 @@ function displayAllFlashMessages(): void
  * @param string $type (error, warning, info, success)
  * @return void
  */
-function flash(string $message = '', string $type = ''): void
+function flashMessages(string $message = '', string $type = ''): void
 {
     if ($message !== '' && $type !== '') {
         createFlashMessage($message, $type);
