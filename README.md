@@ -8,7 +8,7 @@
 3. Run app in root directory by `php -S localhost:80`
 
 ### Used:
-1. PHP (procedural style) on backend
+1. PHP (procedural/functional style) on backend
 2. SQLite for DB
 3. TailwindCSS + DaisyUI on frontend
 4. Custom checkboxes

@@ -3,7 +3,9 @@
 /**
  * Base Config file
  */
+
 return [
     'APP_NAME' => 'Список задач',
-    'ROOT_DIR' => $_SERVER['DOCUMENT_ROOT']
+    'LOCALE' => 'ru',
+    'TIME_ZONE' => 'UTC'
 ];

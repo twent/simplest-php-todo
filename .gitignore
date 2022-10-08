@@ -1,3 +1,5 @@
 .code
 .idea
 /src/config/db/sqlite.db
+
+/vendor/

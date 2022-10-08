@@ -1,0 +1,24 @@
+{
+    "name": "twent/todo-app-php",
+    "description": "Simple PHP Todo App in functional style",
+    "type": "project",
+    "authors": [
+        {
+            "name": "twent",
+            "email": "i@twent.ru"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    },
+    "require": {
+        "ext-pdo": "*",
+        "nesbot/carbon": "^2.62"
+    },
+    "autoload": {
+        "files": [
+        ]
+    }
+}
