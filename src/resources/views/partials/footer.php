@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @var array $config
+ * @var array CONFIG
  */
 
 ?>
@@ -10,7 +10,7 @@
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <svg class="w-10 h-10 text-gray-600 p-2 bg-yellow-400 rounded-full" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
-            <span class="ml-3 text-xl"><?= $config['APP_NAME'] ?></span>
+            <span class="ml-3 text-xl"><?= CONFIG['APP_NAME'] ?></span>
         </a>
         <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © <?= date('Y') ?>
