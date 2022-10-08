@@ -1,5 +1,5 @@
 const checkboxes = document.querySelectorAll(
-    'input[type="checkbox"][name="completed"]'
+    'input[type="checkbox"][name="done"]'
 )
 
 checkboxes.forEach(checkbox => {
