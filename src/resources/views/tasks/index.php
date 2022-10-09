@@ -54,7 +54,7 @@ require_once CONTROLLERS_DIR . "/tasks/index.php";
                         <span class="inline-flex items-center space-x-3">
                             <strong class="text-center"><?= CONFIG['APP_NAME'] ?></strong>
                             <span class="counter rounded-full bg-gray-50 px-2 font-semibold text-gray-600">
-                                <?= $_SESSION['tasksCount']['count'] ?>
+                                <?= $tasksCount['count'] ?>
                             </span>
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hover:cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
@@ -63,7 +63,7 @@ require_once CONTROLLERS_DIR . "/tasks/index.php";
                     </div>
 
                     <div class="task-list space-y-4 min-w-full">
-                        <?php foreach ($_SESSION['tasks'] as $task): ?>
+                        <?php foreach ($tasks as $task): ?>
                             <?php include VIEWS_DIR . '/tasks/card.php' ?>
                         <?php endforeach ?>
 

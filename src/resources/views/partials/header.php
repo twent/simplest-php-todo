@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @var array $CURRENT_PAGE
+ * @var array $currentPage
  */
 
 ?>
@@ -14,11 +14,11 @@
             <span class="ml-3 text-xl"><?= CONFIG['APP_NAME'] ?></span>
         </a>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-start text-base justify-center">
-            <a href="<?= PAGES['index']['URN'] ?>" class="mr-5 hover:text-gray-400 cursor-pointer <?php if($CURRENT_PAGE['name'] == 'Index'): ?>text-blue-600<?php endif ?>">Главная</a>
-            <a href="<?= PAGES['tasks']['URN'] ?>" class="mr-5 hover:text-gray-400 cursor-pointer <?php if($CURRENT_PAGE['name'] == 'Tasks'): ?>text-blue-600<?php endif ?>">Мои задачи</a>
+            <a href="<?= PAGES['index']['uri_path'] ?>" class="mr-5 hover:text-gray-400 cursor-pointer <?php if($currentPage['name'] == 'Index'): ?>text-blue-600<?php endif ?>">Главная</a>
+            <a href="<?= PAGES['tasks']['uri_path'] ?>" class="mr-5 hover:text-gray-400 cursor-pointer <?php if($currentPage['name'] == 'Tasks'): ?>text-blue-600<?php endif ?>">Мои задачи</a>
             <a class="mr-5 hover:text-gray-400 cursor-pointer">Профиль</a>
             <a class="mr-5 hover:text-gray-400 cursor-pointer">Настройки</a>
-            <a href="<?= PAGES['about']['URN'] ?>" class="mr-5 hover:text-gray-400 cursor-pointer <?php if($CURRENT_PAGE['name'] == 'About'): ?>text-blue-600<?php endif ?>">О Нас</a>
+            <a href="<?= PAGES['about']['uri_path'] ?>" class="mr-5 hover:text-gray-400 cursor-pointer <?php if($currentPage['name'] == 'About'): ?>text-blue-600<?php endif ?>">О Нас</a>
         </nav>
         <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Выйти
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">

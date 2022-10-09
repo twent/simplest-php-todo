@@ -8,17 +8,17 @@ declare(strict_types=1);
 
 const PAGES = [
     'index' => [
-        'URN' => '/',
+        'uri_path' => '/',
         'name' => 'Index',
         'title' => 'Главная',
     ],
     'tasks' => [
-        'URN' => '/tasks',
+        'uri_path' => '/tasks',
         'name' => 'Tasks',
         'title' => 'Задачи',
     ],
     'about' => [
-        'URN' => '/about',
+        'uri_path' => '/about',
         'name' => 'About',
         'title' => 'О Нас',
     ]
@@ -30,11 +30,11 @@ switch ($request) {
     case '/':
     case '':
     case '/index.php':
-        $CURRENT_PAGE = PAGES['index'];
+        $currentPage = PAGES['index'];
         require_once VIEWS_DIR . '/tasks/index.php';
         break;
     case '/tasks':
-        $CURRENT_PAGE = PAGES['tasks'];
+        $currentPage = PAGES['tasks'];
         require_once VIEWS_DIR . '/tasks/index.php';
         break;
     case '/tasks/create':
@@ -47,7 +47,7 @@ switch ($request) {
         require_once CONTROLLERS_DIR . '/tasks/delete.php';
         break;
     case '/about':
-        $CURRENT_PAGE = PAGES['about'];
+        $currentPage = PAGES['about'];
         require_once VIEWS_DIR . '/pages/about.php';
         break;
     default:
