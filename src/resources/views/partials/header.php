@@ -1,7 +1,6 @@
 <?php
 
 /**
- * @var array CONFIG
  * @var array $CURRENT_PAGE
  */
 

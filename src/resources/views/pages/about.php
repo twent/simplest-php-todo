@@ -7,6 +7,7 @@
 
     <body>
         <?php include_once VIEWS_DIR . '/partials/header.php'; ?>
+
         <!-- main -->
         <section class="text-gray-600 body-font">
             About Page

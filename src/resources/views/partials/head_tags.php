@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Global Config Array
- * @var array CONFIG
- *
- * Current Page Title
+/** Current Page Title
  * @var array $CURRENT_PAGE
  */
 
