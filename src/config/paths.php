@@ -16,6 +16,8 @@ const DATABASE_DIR = CONFIG_DIR . '/db';
 
 const ROUTES_DIR = APP_DIR . '/routes';
 
+const MODELS_DIR = APP_DIR . '/models';
+
 const CONTROLLERS_DIR = APP_DIR . '/controllers';
 
 const VIEWS_DIR = APP_DIR . '/resources/views';
