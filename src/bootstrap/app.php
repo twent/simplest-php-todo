@@ -21,6 +21,7 @@ require_once DATABASE_DIR . "/db_connection.php";
 require_once APP_DIR . "/start_session.php";
 require_once APP_DIR . "/flash_messages.php";
 require_once APP_DIR . "/redirect.php";
+require_once APP_DIR . "/safety.php";
 
 /* Load router */
 require_once ROUTES_DIR . "/web.php";
